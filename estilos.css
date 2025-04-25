@@ -1,7 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-   background: url(lf.jpg);
+   
+   opacity: 0.9;
+    background-color: #ffffff;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,35 +30,36 @@ input[type="password"]{
     width: 82%;
     padding: 10px;
     border: none;
+    
 }
 .input-contenedor{
     margin-bottom: 15px;
-    border: 1px solid #aaa;
+    border: 1px solid #ffffff;
 }
 .icon{
     min-width: 50px;
     text-align: center;
-    color: #999;
+    color: hsl(0, 100%, 50%);
 }
 .button{
     border: none;
     width: 100%;
     color: white;
     font-size: 20px;
-    background:  #1a2537;
+    background:  #ff0101;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 .button:hover{
-    background: cadetblue;
+    background: rgb(0, 0, 0);
 }
 p{
     text-align: center;
 }
 .link{
     text-decoration: none;
-      color: #1a2537;
+      color: #ff0000;
     font-weight: 600;
 }
 .link:hover{
